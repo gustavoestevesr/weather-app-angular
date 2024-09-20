@@ -1,0 +1,42 @@
+/*
+# Abordagem BEM (Block Element Modifier) é amplamente adotado em grandes projetos para manter o código CSS modular, legível e fácil de manter.
+
+# Vantagens do BEM:
+- Clareza e organização: Fica claro quais estilos pertencem a quais partes da interface.
+- Modularidade: Cada bloco e elemento é autônomo e pode ser facilmente reutilizado ou alterado.
+- Escalabilidade: Em projetos maiores, BEM ajuda a organizar o CSS de forma mais limpa, evitando confusão de seletores e regras conflitantes.
+*/
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d3d3d3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__weather-container {
+    height: 84vh;
+    width: 84vw;
+    border-radius: 42px;
+
+    display: flex;
+  }
+}
+
+.weather-container {
+  &__left-container {
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex: 3;
+  }
+
+  &__right-container {
+    background-color: #f6f6f8;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    flex: 7;
+  }
+}
