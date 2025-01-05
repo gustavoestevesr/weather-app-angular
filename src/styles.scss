@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  $color-success: #4caf50;
+  $color-error: #f44336;
+  $color-warning: #ff9800;
+  $color-info: #2196f3;
+  $background-primary: #ffff;
+  $background-secondary: #d6d7da;
+}

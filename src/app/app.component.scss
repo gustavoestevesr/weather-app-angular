@@ -1,0 +1,16 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d6d7da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  height: 84vh;
+  width: 64vw;
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+}
